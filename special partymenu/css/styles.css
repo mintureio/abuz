@@ -1,0 +1,401 @@
+html {
+  scroll-behavior: smooth;
+}
+h1,p,h3{
+   font-family: 'Roboto', sans-serif;
+}
+.header_block{
+	padding: 10px 0px;
+    width: 100%;
+    float: left;
+}
+.logo{
+	width: 100%;
+}
+logo img {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.logo h1{
+	float: right;
+	color: black;
+	font-size: 20px;
+}
+
+/*footer2*/
+.footer2{
+    float: left;
+    width: 100%;
+    padding: 28px 0px 28px 0px;
+    background-color: #E8D3B9;
+}
+.footnav {
+    float: left;
+    width: 100%;
+}
+.footnav a {
+    float: left;
+    margin-right: 50px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footnav p {
+    float: right;
+    font-size: 13px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.footnav p a {
+    float: right;
+    margin-right: 0px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footnav p a:hover {
+ color: black;
+}
+.bann_er{
+	width: 100%;
+	padding: 100px 0px;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*footer2 end*/
+
+.content {
+    text-align: center;
+    color: whitesmoke;
+}
+.buttonbnr {
+    width: 50%;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+}
+.buttonbnr p {
+    font-family: roboto;
+    font-size: 12px;
+    font-style: normal;
+
+    margin-top: 10px;
+    color: white;
+}
+.footnav p a {
+    float: right;
+    margin-right: 0px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footnav p {
+    float: right;
+    font-size: 13px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.footnav {
+    float: left;
+    width: 100%;
+}
+@media (max-width: 575px){
+.footnav {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.footnav p {
+    float: none;
+    font-size: 12px;
+    text-align: center;
+}
+.footer2 {
+    padding: 20px 0px 20px 0px;
+}
+.footnav p a {
+    font-size: 12px;
+    float: none!important;
+    text-align: center;
+}
+}
+.menunav_area{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background-color: #E8D3B9;
+}
+.heading{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-family: roboto;
+}
+.heading1{
+    text-align: left;
+    display: block;
+    width: 100%;
+    font-family: roboto;
+ 
+}
+.heading1 h1{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.button_area{
+    width: 100%;
+    padding: 10px 0px;
+}
+.button{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 6px 0px 0px 6px;
+}
+.button h4{
+    text-decoration: none;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: black;
+    padding: 10px 0px;
+     font-size: 10px;
+ font-family: roboto;
+}
+.button1{
+    width: 100%;
+    float: left;
+    background-color: white;
+     margin-bottom: 10px;
+      border-radius: 0px 6px 6px 0px;
+}
+.button1 h4{
+    text-decoration: none;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: black;
+ padding: 10px 0px;
+ font-size: 10px;
+ font-family: roboto;
+}
+.main_sec{
+    width: 100%;
+    float: left;
+     padding: 0px 0px 20px 0px;
+    background-color: #E8D3B9;
+}
+.food_box{
+    width: 100%;
+    float: left;
+    background-color: white;
+    padding: 10px 0px;
+    border-radius: 23px;
+    margin-bottom: 20px;
+}
+.food_box img {
+    float: left;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px 10px;
+    border-radius: 100%;
+}
+.food_box h1 {
+    font-size: 25px;
+    padding: 15px 10px 0px 0px;
+    font-weight: bold;
+}
+.food_box h3{
+font-size: 15px;
+font-style:  italic;
+font-weight: bold;
+}
+
+.main_sec1 {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 35px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+}
+.menunav_area1 {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 70px 0px;
+}
+.circle{
+    width: 100%;
+    float: left;
+}
+.circle img{
+    width: 100%;
+    float: left;
+}
+.welcome{
+    width: 100%;
+    float: left;
+    padding: 200px 0px 0px 0px;
+}
+.welcome img{
+    width: 150px;
+    height: auto;
+    border-radius: 16px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+float: none;
+}
+
+.contact_sec{
+width: 100%;
+float: left;
+background-color: #E8D3B9;
+padding: 60px 0px;
+}
+.contact_sec img{
+    width: 100%;
+    float: left;
+}
+.contact_sec h3 {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.box {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.box img{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+}
+.box a{
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.box1 {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-bottom: 27px;
+    display: block;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.box1 img{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+}
+.box1 a{
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.whatsappbtn {
+    width: 100%;
+    background-color: #25D366;
+    border-radius: 15px;
+    float: left;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.whatsappbtn img {
+    width: 70px;
+    float: left;
+}
+.whatsappbtn h5 {
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+.whatsappbtn h6 {
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+.greenbtn{
+    width: 100%;
+    float: left;
+    background-color: #25D366;
+    padding: 10px;
+     border-radius: 15px;
+     margin-bottom: 15px;
+}
+.greenbtn img {
+    width: 70px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.greenbtn h5{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+}
